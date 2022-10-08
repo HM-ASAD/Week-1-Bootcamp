@@ -1,0 +1,62 @@
+
+.main{
+    background-color: rgb(12, 12, 15);
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.small{
+    margin-left: 15px;
+}
+.small-card-body{
+    border:1px solid yellow;
+
+    border-radius: 50px 50px 0px 0px;
+}
+.header-small{
+    height:40px;border-radius: 10px 10px 0px 0px;
+    width: 15vw;
+}
+.body-css{
+    height: 25vh;
+    margin-top: -10px;
+    width: 15vw;
+
+    padding-left:20px;padding-right: 20px ;padding-top:5px;border-radius: 15px 15px 15px 15px;background-color: #040a20;
+}
+.custom-card{
+    margin-bottom: 10px;
+
+    max-width: 33rem;height: 31vh;border-radius: 10px;
+}
+.avatar {
+vertical-align: middle;
+margin-left: 20px;
+width: 60px;
+height: 60px;
+border-radius: 50%;
+}
+.long-custom-card{
+    margin-bottom: 10px;
+
+    max-width: 33rem;height: 31vh;border-radius: 10px;
+}
+.header-long{
+    height:40vh;border-radius: 10px 10px 10px 10px;
+    width: 15vw;
+    z-index: 1;
+    
+}
+.long-body-css{
+    height: 63vh;
+    width: 15vw;
+    /* margin-top: -10px; */
+    /* z-index: 2;/ */
+    margin-bottom: 10px;
+
+   border-radius: 0px 0px 15px 15px;background-color: #040a20;
+}
